@@ -170,13 +170,13 @@ body {
 		to right,
 		#80ff72 0%,
 		#7ee8fa 100%
-	); /* Kolor tła prostokąta */
+	); 
 	position: fixed;
-	top: 50%; /* Ustawienie w połowie wysokości ekranu */
-	right: 0; /* Ustawienie przy prawej stronie ekranu */
-	transform: translateY(-50%); /* Wycentrowanie w pionie */
-	border-radius: 12px; /* Zaokrąglenie rogów*/
-	overflow: auto; /*Dodanie suwaka gdy tekst będzie wychodzić poza obszar*/
+	top: 50%; 
+	right: 0; 
+	transform: translateY(-50%); 
+	border-radius: 12px; 
+	overflow: auto; 
 }
 
 .addTask-area {
@@ -186,13 +186,13 @@ body {
 		to left,
 		#80ff72 0%,
 		#7ee8fa 100%
-	); /* Kolor tła prostokąta */
+	); 
 	position: fixed;
-	top: 50%; /* Ustawienie w połowie wysokości ekranu */
-	left: 0; /* Ustawienie przy prawej stronie ekranu */
-	transform: translateY(-50%); /* Wycentrowanie w pionie */
-	border-radius: 12px; /* Zaokrąglenie rogów*/
-	/* text-align: center; */
+	top: 50%; 
+	left: 0; 
+	transform: translateY(-50%); 
+	border-radius: 12px; 
+
 }
 .task-completed {
 	display: grid;

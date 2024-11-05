@@ -59,13 +59,9 @@ export default {
 			defaultDescriptionText: "",
 			important: false,
 			correctInput: true,
-			// displayText: false,
 		};
 	},
 	watch() {},
-	//
-	// Nie wiem po co ten watch sprawdzić co się z nim stanie bo nie jest nigdzie użyty, usunąć?
-	//
 	methods: {
 		submitData() {
 			const taskTitle = this.defaultTitleText;
@@ -77,12 +73,10 @@ export default {
 			this.defaultDescriptionText = "";
 			this.important = false;
 			this.correctInput = true;
-			// this.displayText = false;
 		},
 		checkInput() {
 			if (this.defaultTitleText.trim() !== "") {
 				this.correctInput = true;
-				// this.displayText = true;
 			} else {
 				this.correctInput = false;
 			}

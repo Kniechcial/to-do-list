@@ -5,4 +5,4 @@ Vue Options API
 
 ## Main page
 
-![obraz] (https://raw.githubusercontent.com/Kniechcial/to-do-list/refs/heads/main/src/components/asets/img/main_page.jpg)
+![obraz](./src/components/asets/img/main_page.jpg)
